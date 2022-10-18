@@ -1,0 +1,10 @@
+h1 {
+  color: aqua;
+  background-color: rgba(117, 96, 96, 0.129);
+  text-align: center;
+  font-size: 45px;
+}
+body {
+  background-color: dimgray;
+  background-size: cover;
+}

@@ -1,0 +1,26 @@
+body {
+  background-image: url(https://media-be.chewy.com/wp-content/uploads/2019/06/27114323/Things-You-Need-to-Know-Before-Bringing-Home-a-French-Bulldog-1024x548.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2 {
+  color: red;
+  font-size: 45px;
+  font-family: fantasy;
+}
+p {
+  color: black;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  color: black;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: red;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}

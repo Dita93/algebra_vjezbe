@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style3.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domaći rad 3</title>
+  </head>
+  <body>
+    <form>
+      <h1>Francuski buldog</h1>
+      <h3>Prijava za udomljenje</h3>
+      <fieldset>
+        <legend>Osobni podatci:</legend>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" placeholder="Mato" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" placeholder="Matić" /><br />
+      </fieldset>
+
+      <br />
+      <label for="birthday">Datum rođenja:</label>
+      <input type="date" id="birthday" name="birthday" />
+
+      <br />
+      <label for="najdraža boja">Koja Vam je boja pasmine najdraža?</label>
+      <input list="najdraža boja" name="polaznik" />
+      <datalist id="najdraža boja">
+        <option value="Brindle"></option>
+        <option value="White"></option>
+        <option value="Fawn"></option>
+        <option value="Brindle and White"></option>
+        <option value="Tan"></option>
+      </datalist>
+      <br />
+      <br />
+      <label for="karakteristike">Karakteristike pasmine</label>
+      <select name="karakteristike" id="karakteristike">
+        <optgroup label="Pozitivne strane">
+          <option value="inteligenti">inteligentni</option>
+          <option value="razigrani">razigrani</option>
+          <option value="nježni">nježni</option>
+          <option value="vjerni prijatelji">vjerni prijatelji</option>
+        </optgroup>
+
+        <optgroup label="Negativne strane">
+          <option value="boležljjivi">boležljjivi</option>
+          <option value="traže puno pažnje">traže puno pažnje</option>
+          <option value="smotani">smotani</option>
+          <option value="hrču">hrču</option>
+        </optgroup>
+      </select>
+      <br />
+      <br />
+      <label for="post">Zašto je ova pasmina baš za Vas</label><br />
+      <textarea id="post" name="post" rows="15" cols="50">
+Kratak sažetak</textarea
+      >
+      <br /><br />
+      <label for="cijena">Odaberite koliko smatrate da vrijedi štene</label>
+      <input
+        id="cijena"
+        name="cijena"
+        type="range"
+        min="1000"
+        max="10000"
+        value="5000"
+      /><br />
+      <br />
+    </form>
+  </body>
+</html>
